@@ -15,6 +15,7 @@ ul {
     display: flex;
     justify-content: space-between;
     background-color: #1f2937;
+    padding: 20px;
 }
 
 .right-links {
@@ -27,4 +28,48 @@ ul {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.hero {
+    background-color: #1f2937; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 800; /* won't work unless you add roboto 800 */
+    color: #e5e7eb;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px 10px 20px;
+    font-weight: bold;
+}
+
+.image-placeholder {
+    background-color: grey;
+    color: #e5e7eb;
+    width: 400px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-1 {
+    width: 400px;
+    height: auto;
+    padding: 60px;
 }
