@@ -73,3 +73,29 @@ ul {
     height: auto;
     padding: 60px;
 }
+
+.small-image-placeholder {
+    border: rgb(110, 131, 228) 2px solid;
+    border-radius: 6px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+h3 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;;
+}
+
+.information {
+display: flex;
+justify-content: center;
+gap: 50px;
+}
+
+.text {
+    max-width: 110px;
+    text-align: center;
+}
