@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;}
+    font-family: 'Roboto', sans-serif;
+}
 
 a {
     text-decoration: none;
@@ -13,14 +14,15 @@ ul {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #1f2937;
     padding: 20px;
+    gap: 380px;
 }
 
 .right-links {
     display: flex;
-    gap: 10px;
+    gap: 25px;
     margin: 0;
     padding: 0;
   }
@@ -28,6 +30,7 @@ ul {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    font-weight: bold;
 }
 
 .hero {
@@ -35,18 +38,20 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px;
+    gap: 4px;
 }
 
 .hero h1 {
     font-size: 48px;
-    font-weight: 800; /* won't work unless you add roboto 800 */
+    font-weight: 800; 
     color: #e5e7eb;
+    display: inline;
 }
 
 .hero p {
     font-size: 18px;
     color: #e5e7eb;
+    font-weight: 300;
 }
 
 .hero button {
@@ -54,14 +59,14 @@ ul {
     color: #e5e7eb;
     border: none;
     border-radius: 5px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 25px 10px 25px;
     font-weight: bold;
 }
 
 .image-placeholder {
     background-color: grey;
     color: #e5e7eb;
-    width: 400px;
+    width: 500px;
     height: 200px;
     display: flex;
     justify-content: center;
@@ -69,7 +74,7 @@ ul {
 }
 
 .hero-1 {
-    width: 400px;
+    width: 450px;
     height: auto;
     padding: 60px;
 }
@@ -93,9 +98,80 @@ h3 {
 display: flex;
 justify-content: center;
 gap: 50px;
+margin-bottom: 70px;
 }
 
 .text {
     max-width: 110px;
     text-align: center;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    padding: 50px;
+    margin-top: 25px;
+}
+
+.quote-text {
+    font-weight: 300;
+    font-size: 36px;
+    color: #1f2937;
+    font-style: italic;
+    width: 700px;
+
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 15px;
+    float: right;
+}
+
+.call-to-action-container {
+    display: flex;
+    justify-content:space-around;
+    gap: 20px;
+    background-color: #3882f6;
+    margin: 150px;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 20px 20px 20px 80px;
+    color: white;
+    border-radius: 10px;
+}
+
+.call-to-action p {
+    font-weight: 300;
+    font-size: 13px;
+}
+
+.call-to-action-container button {
+    background-color: #3882f6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: auto;
+    height: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.call-to-action h4 {
+  font-size: 17px;
+  display: inline;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
